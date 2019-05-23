@@ -7,4 +7,5 @@ def line(katz_deli)
     current_line = "The line is currently:" katz_deli.each.with_index do |person, i|
       current_line << " #{i}. #{person}. "
   end
+  current_line
 end 
