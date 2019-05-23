@@ -1,5 +1,8 @@
 katz_deli = []
 
-def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  "Welcome, #{name}. You are number #{katz_deli.[]} in line."
+def line(katz_deli)
+  if katz_deli.empty? 
+    "The line is currently empty"
+  else 
+    current_line = "The line is currently: "
+end 
